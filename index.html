@@ -1,0 +1,146 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Graphical Framework for CIDOC-CRM Schema</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+    
+                <div class="head">
+            <h1>Graphical Framework for CIDOC-CRM Schema</h1>
+            <dl>
+                <dt>Date:</dt>
+                <dd>14/12/2018</dd>
+                <dt>Current version:</dt>
+                <dd>1.0</dd>
+                <dt>Author</dt>
+                <dd>Nicola Carboni, George Bruseker</dd>
+            </dl>
+        </div>  
+        <hr />
+
+</div>
+       <div id="toc">
+        <h2 id="abstract">Table of Content</h2>
+        <ul>
+<li><a href="#introduction">Introduction</a>
+</li>
+<li><a href="#classes">Class definition</a>
+
+<ul>
+<li><a href="#conceptual">E28 Conceptual Entity</a></li>
+<li><a href="#physical">E18 Physical Entity</a></li>
+<li><a href="#place">E53 Place</a></li>
+<li><a href="#temporal">E2 Temporal Entity</a></li>
+<li><a href="#time">E52 Time-span</a></li>
+<li><a href="#actor">E39 Actor</a></li>
+<li><a href="#type">E55 Type</a></li>
+<li><a href="#dimension">E54 Dimension</a></li>
+<li><a href="#entity">E1 CRM Entity</a></li>
+<li><a href="#literal">Literals</a></li>
+</ul></li>
+</div>
+        <h2 id="introduction">Introduction</h2>
+        <p>This document introduce the Graphical Framework for representing CIDOC-CRM Schema using a set of graphical specifications for identifying the diverse classes and properties of CIDOC-CRM in a clear and understable manner. The objective of the document is to propose the use of eight different colours for the representation of eight classes (and their respective subclasses) in CRM.</p>
+
+        <p> The colours have been chosen in order to provide a clear and straightdorward characterisation of the entity diversity in a CIDOC-CRM graphical representation, helping the user navigate complex models and promptly understand what type of classes are being depicted. The figure below provide an overview of the graphical framework used</p>
+        
+        <div class="image">
+            <p><img src="img/legend1.svg" alt=""/></p>
+            <p class="caption">Figure 1: a graphical framework for representing CIDOC-CRM Schema.</p>
+        </div>
+
+  
+
+        <h2 id="classes"><span>Class definition</span></h2>
+        <p>In this section we introduce the basic identification characteristics of the documented classes. For each class a rectangle with solid black border is used to declare classes. The distinction between the type of classes is given by the colour of the rectangle. The text inside each rectangle report the hex value of its colour. The colour value is also reported in RGB.</p>
+
+                <table border="2">
+            <tr>
+                <th>Type of class</th>
+                <th>Graphic Representation</th>
+                <th>RGB value</th>
+            </tr>
+            <tr id="conceptual">
+                <td>E28 Conceptual Object</td>
+                <td><img alt="" src="img/conceptual.svg" /></td>
+                <td>rgb(255,220,0)</td>
+            </tr>
+                <tr id="physical">
+                <td>E18 Physical Thing</td>
+                <td><img alt="" src="img/physical.svg" /></td>
+                <td>rgb(244,88,98)</td>
+            </tr>
+                <tr id="place">
+                <td>E53 Place</td> 
+                <td><img alt="" src="img/place.svg" /></td>
+                <td>rgb(140,191,118)</td>
+            </tr>
+                <tr id="temporal">
+                <td>E2 Temporal Entity</td> 
+                <td><img alt="" src="img/temporal.svg" /></td>
+                <td>rgb(93,174,236)</td>
+            </tr>
+                <tr id="time">
+                <td>E52 Time-Span</td> 
+                <td><img alt="" src="img/time.svg" /></td>
+                <td>rgb(118,165,175)</td>
+            </tr>
+                <tr id="actor">
+                <td>E39 Actor</td> 
+                <td><img alt="" src="img/actor.svg" /></td>
+                <td>rgb(250,145,88)</td>
+            </tr>
+                <tr id="type">
+                <td>E55 Type</td> 
+                <td><img alt="" src="img/type.svg" /></td>
+                <td>rgb(213,166,189)</td>
+            </tr>
+                <tr id="dimension">
+                <td>E54 Dimension</td> 
+                <td><img alt="" src="img/dimension.svg" /></td>
+                <td>rgb(176,146,122)</td>
+            </tr>
+                <tr id="entity">
+                <td>E54 Dimension</td> 
+                <td><img alt="" src="img/entity.svg" /></td>
+                <td>rgb(217,217,217)</td>
+            </tr>
+                <tr id="literal">
+                <td>Literals</td> 
+                <td><img alt="" src="img/literal.svg" /></td>
+                <td>rgb(252,229,205)</td>
+            </tr>
+        </table>
+
+<br>
+        
+
+        
+<!--
+
+        <h2 id="install">How to install Graffoo</h2>
+        
+        <p>Graffoo has been developed using the standard library of the <a href="http://www.yworks.com/products/yed/">yEd diagram editor</a>, a free diagram editor running on Windows, Mac and Linux. The <em>graphml</em> format version of those Graffoo objects is also <a href="https://svn.code.sf.net/p/dwellonit/code/GraFFOO/Graffoo.graphml">available</a>. It can be imported as new <em>Section</em> of the <em>yEd Palette</em>.</p>
+        
+        <p>To install Graffoo, please follow the following steps:</p>
+        <ol>
+        	<li>install <a href="http://www.yworks.com/en/products_yed_about.html">yEd</a>, a free diagram editor tool;</li>
+        	<li>download the <a href="https://svn.code.sf.net/p/dwellonit/code/GraFFOO/Graffoo.graphml">Graffoo .graphml file</a>;</li>
+        	<li>import it as a palette on <em>yEd</em> - <em>Click on Edit</em> -> <em>Manage Palette</em> -> <em>Import
+Section</em>, then select the downloaded file, add it, and include it in the available
+palettes;</li>
+        	<li>start creating diagrams!</li>
+        </ol>
+        
+        <h2>About the initiative</h2>
+        <p>
+           
+           The initiative took place under the <a href="https://swissartresearch.net">Swiss Art Research Infrastracture project</a> and it has been based on the <a href="http://www.essepuntato.it/static/graffoo/graffoo.html">Graphical Framework for OWL Ontologies</a> by <a href="http://www.essepuntato.it">Silvio Peroni.</a>
+        </p> -->
+        
+        <hr />
+        
+
+    </body>
+</html>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="-165.5 338.5 150 53" width="150" height="53">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="19" panose-1="2 0 8 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-weight="700">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Bold"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.9.2 
+    <dc:date>2018-12-14 12:40:59 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" fill-opacity="1" stroke-opacity="1" stroke-dasharray="none" stroke="none" fill="none">
+    <title>Canvas 1</title>
+    <rect fill="white" x="-165.5" y="338.5" width="150" height="53"/>
+    <g id="Canvas_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Group_774">
+        <g id="Group_775">
+          <g id="Group_776">
+            <g id="Group_777">
+              <g id="Graphic_781">
+                <rect x="-164" y="340" width="147" height="50" fill="#fde5cd"/>
+              </g>
+              <g id="Group_778">
+                <g id="Graphic_780">
+                  <rect x="-164" y="340" width="147" height="50" fill="#fde5cd"/>
+                </g>
+                <g id="Graphic_779">
+                  <rect x="-164" y="340" width="147" height="50" fill="#fde5cd"/>
+                  <rect x="-164" y="340" width="147" height="50" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(-159 353.22443)" fill="black">
+                    <tspan font-family="Helvetica Neue" font-size="19" font-weight="700" fill="black" x="32.609" y="19">#fce5cd</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
